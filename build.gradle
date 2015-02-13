@@ -29,7 +29,7 @@ apply plugin: "catkin"
 
 allprojects {
     apply from: "https://github.com/talregev/rosjava_mvn_repo/raw/master/maven.gradle"
-    group 'org.ros.android_osrf'
+    group 'org.ros.rosjava_osrf'
     version = project.catkin.pkg.version
 }
 
