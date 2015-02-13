@@ -41,9 +41,9 @@ import android.net.wifi.SupplicantState;
 import android.net.wifi.WifiInfo;
 import android.content.Context;
 
-import ros.android.activity.RobotId;
-import ros.android.activity.RobotDescription;
-import ros.android.activity.RobotNameResolver;
+import org.ros.android.activity.RobotId;
+import org.ros.android.activity.RobotDescription;
+import org.ros.android.activity.RobotNameResolver;
 
 /**
  * Threaded WiFi checker. Checks and tests if the WiFi is configured properly and if not, connects to the correct network.

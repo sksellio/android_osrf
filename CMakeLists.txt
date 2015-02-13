@@ -3,6 +3,9 @@ project(android_osrf)
 
 find_package(catkin REQUIRED rosjava_tools)
 
-catkin_rosjava_setup(install)
+catkin_rosjava_setup(assembleRelease uploadArchives)
 
 catkin_package()
+
+install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/android_osrf/
+        DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/android_osrf/)

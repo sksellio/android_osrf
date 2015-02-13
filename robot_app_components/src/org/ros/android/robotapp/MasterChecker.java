@@ -43,9 +43,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Date;
 
-import ros.android.activity.RobotId;
-import ros.android.activity.RobotDescription;
-import ros.android.activity.RobotNameResolver;
+import org.ros.android.activity.RobotId;
+import org.ros.android.activity.RobotDescription;
+import org.ros.android.activity.RobotNameResolver;
 
 /**
  * Threaded ROS-master checker. Runs a thread which checks for a valid ROS
