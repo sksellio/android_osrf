@@ -46,9 +46,9 @@ import app_manager.StartAppResponse;
 import app_manager.StopAppResponse;
 
 import org.ros.android.robotapp.Dashboard;
-import ros.android.activity.AppManager;
-import ros.android.activity.RobotDescription;
-import ros.android.activity.RobotNameResolver;
+import org.ros.android.activity.AppManager;
+import org.ros.android.activity.RobotDescription;
+import org.ros.android.activity.RobotNameResolver;
 
 /**
  * @author murase@jsk.imi.i.u-tokyo.ac.jp (Kazuto Murase)

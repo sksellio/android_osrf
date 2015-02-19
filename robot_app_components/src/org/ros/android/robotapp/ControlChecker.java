@@ -45,9 +45,9 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 
-import ros.android.activity.RobotId;
-import ros.android.activity.RobotDescription;
-import ros.android.activity.RobotNameResolver;
+import org.ros.android.activity.RobotId;
+import org.ros.android.activity.RobotDescription;
+import org.ros.android.activity.RobotNameResolver;
 
 /**
  * Threaded control checker. Checks to see if the software is running and in a valid state.
